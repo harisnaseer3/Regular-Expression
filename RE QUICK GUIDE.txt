@@ -1,0 +1,14 @@
+^    matches the begning of line
+$    matches the end of line
+.    matches any charecter
+\s    mathes the whitespace
+\S    matches any non-whitespace charecter
+*    repeat a char zero or more time
+*?    repreat a char or more time (non-greedy)
++    repeat a char zero or more time
++?    repreat a char or more time (non-greedy)
+[aeiou]    matches a single char in the listed set
+[^XYZ]    matches a single char not in the listed set
+[a-z0-9]    the set of char can include a range
+(    indicate where string extraction is to start
+)    indicate where string extraction is to end
